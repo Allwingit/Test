@@ -1,0 +1,1 @@
+web: gunicorn pricehound_app.wsgi --log-file -
