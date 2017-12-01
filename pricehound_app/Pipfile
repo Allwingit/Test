@@ -1,3 +1,8 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
 amqp==2.2.2
 asn1crypto==0.23.0
 attrs==17.2.0
@@ -43,3 +48,6 @@ gunicorn = "*"
 psycopg2 = "*"
 whitenoise = "*"
 
+
+[requires]
+python_version = "2.7"
