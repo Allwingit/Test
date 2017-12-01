@@ -38,3 +38,8 @@ urllib3==1.22
 vine==1.1.4
 w3lib==1.18.0
 zope.interface==4.4.3
+dj-database-url = "*"
+gunicorn = "*"
+psycopg2 = "*"
+whitenoise = "*"
+
